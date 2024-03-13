@@ -3,4 +3,4 @@
 *.iml
 out
 gen
-./playground.py
+playground.py
