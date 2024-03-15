@@ -18,9 +18,14 @@ Note that:
 Date Solved: Wed 13 Mar 2024
 Time to Solve: 5 min
 """
+from typing import List
 
 
 class Solution:
     def convertTemperature(self, celsius: float) -> List[float]:
         ans = [celsius + 273.15, celsius * 1.80 + 32.00]
         return ans
+
+
+t = Solution()
+print(t.convertTemperature(30))
